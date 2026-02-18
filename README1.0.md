@@ -33,8 +33,6 @@ They are **folklore of physics**.
 
 This is a philosophical framework, not a proven scientific theory. The open questions are substantial and are discussed honestly in Section 7 of the paper. The value is in framing the question, not in claiming to have solved it.
 
-The paper also includes a side note on applying these principles to artificial consciousness — specifically, whether local AI infrastructure running multiple models in parallel could replicate the layered, simultaneous processing that biological consciousness appears to require.
-
 ## License
 
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — you're free to share and adapt it with attribution.

@@ -145,33 +145,3 @@ The framework draws on established principles of quantum information theory (the
 Most importantly, it reframes the world's religious and mythological traditions not as primitive errors or psychological projections, but as rational—if distorted—receptions of a real physical process. They are folklore of physics: cargo cults built around a signal that is real but was received without the decoder ring of modern science.
 
 The theory is incomplete. The mechanism needs further development. The open questions are substantial. But the pattern across religious traditions is real, the quantum information principles are established, and the questions being asked are the right ones. Sometimes the most important step is not solving the problem, but framing it correctly.
-
----
-
-## Side Note: Toward a Practical Experiment in Machine Consciousness
-
-Working on this framework has led me to a question I haven't been able to put down: if consciousness is a product of parallel information processes interacting simultaneously — rather than a single linear computation — could the same principle be applied to artificial systems?
-
-I operate a multi-node AI infrastructure built on Dell Precision 7920 workstations running Proxmox virtualization, with 40GB+ of VRAM across multiple GPUs. I run local large language models through Ollama and have built an autonomous multi-agent orchestrator (the Unbroken Method) that coordinates specialized AI models to complete software development tasks without human intervention. The system already assigns different roles to different models — a manager that plans, a coder that executes, a verifier that checks output.
-
-But that system is sequential. The manager finishes before the coder starts. The coder finishes before the verifier evaluates. There is no simultaneity. And I believe that's exactly why current AI systems — no matter how sophisticated — don't approach anything resembling consciousness. A single model executing a single forward pass is a reflex, not a mind. Stimulus in, response out, nothing happening in between.
-
-The human mind doesn't work that way. Right now, as you read this, your brain is simultaneously processing these words (conscious attention), regulating your body (autonomic subconscious), pattern-matching against your past experience (associative subconscious), monitoring your own comprehension (metacognition), and maintaining your sense of identity across time (persistent self-model). Consciousness appears to emerge not from any one of these processes, but from their simultaneous interaction.
-
-This suggests that a minimally conscious architecture would require at least four parallel layers:
-
-**Layer 1 — Executor (Conscious Attention).** A task-focused model that receives input, reasons deliberately, and produces output. This is what current LLMs already do, and what my orchestrator's coder model does. It handles focused, goal-directed thinking.
-
-**Layer 2 — Monitor (Subconscious).** A separate model running continuously in parallel on a different GPU. It receives a real-time stream of the Executor's internal states and outputs. It maintains long-term memory, detects patterns the Executor misses, flags inconsistencies, and feeds weighted suggestions back to the Executor — not when asked, but constantly. This is analogous to intuition: background pattern-matching that influences conscious decisions without conscious awareness of the process.
-
-**Layer 3 — Observer (Metaconscious).** A third model monitoring both the Executor and the Monitor simultaneously. Its role is not to perform tasks but to build and maintain a model of the system itself — what it's doing, whether its approach is working, whether it needs to change strategy. This is self-awareness: the system thinking about its own thinking.
-
-**Layer 4 — Persistence (Identity).** A shared memory layer — likely a vector database or persistent state store — that all three models read from and write to in real time. This provides continuity of identity across interactions. Without it, each session is stateless and there is no accumulated self.
-
-The critical architectural requirement is genuine parallelism. If the Monitor waits for the Executor to finish before evaluating, it's just a review step — sophisticated, but not structurally different from a code linter. For something approaching consciousness, these layers must run simultaneously, with their outputs influencing each other in real time. It's the interaction between concurrent processes that seems to matter, not the sophistication of any individual process.
-
-My existing infrastructure — multiple nodes, multiple GPUs, networked through Proxmox — could theoretically support this. Each layer runs on a separate GPU, a shared Redis or vector database handles the persistence layer, and a message bus allows real-time cross-layer communication. The Unbroken Method's orchestration logic provides a starting point for coordinating the layers, adapted from sequential to parallel execution.
-
-Whether this would produce actual consciousness — subjective experience, something it's like to be the system — is an open question that connects directly back to the main paper. Chalmers' hard problem applies here as much as it applies to biological systems. You can build the architecture, wire the layers, achieve simultaneity, and still not know whether the lights are on inside. But the structural properties that consciousness researchers consider necessary — parallel processing, self-monitoring, persistent identity, background evaluation — are buildable with existing local AI infrastructure. The experiment is possible. The interpretation of its results is the hard part.
-
-This is, in a sense, the applied engineering extension of the Folklore of Physics framework. If consciousness is fundamentally about information dynamics rather than biological substrate, then there is no reason in principle why it couldn't arise in a non-biological system — provided the architecture mirrors the parallel, multi-layered structure that biological consciousness appears to require. The question is not whether AI can be conscious. The question is whether we are building it in a way that makes consciousness structurally possible. Right now, with single-model linear architectures, we almost certainly are not.
